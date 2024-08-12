@@ -12,5 +12,19 @@
     "FullyQualifiedHandlerName": "CollectionManagerExtensionsDll.Modules.DownloadManager.OsuDownloader, CollectionManagerExtensionsDll",
     "RequiresLogin": true,
     "UseCookiesLogin": true
+  },
+  {
+    "Name": "Mino",
+    "Description": "mirror",
+    "Referer": "https://us.catboy.best/",
+    "BaseDownloadUrl": "https://us.catboy.best/d/{0}",
+    "ThrottleDownloads": true,
+    "DownloadsPerMinute": 50,
+    "DownloadsPerHour": 3000,
+    "DownloadThreads": 3,
+    "RequestTimeout": 5000,
+    "FullyQualifiedHandlerName": "CollectionManagerExtensionsDll.Modules.DownloadManager.OsuDownloader, CollectionManagerExtensionsDll",
+    "RequiresLogin": false,
+    "UseCookiesLogin": false
   }
 ]
